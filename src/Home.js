@@ -4,7 +4,10 @@ import err from "./err.png";//importing resource
 import useFetch from "./useFetch";
 
 const Home = () => {
-    const {data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs');
+    const {data: blogs, isPending, error} = useFetch('http://localhost:5010/blogs');
+    /*
+        Start server with command: npx json-server --watch db.json --port 5010
+    */
 
     return ( 
         <div className="home">

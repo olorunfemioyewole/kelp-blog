@@ -1,22 +1,16 @@
 {
   "blogs": [
     {
-      "title": "Everything You Need to Know About Headphone Drivers",
-      "body": "No doubt about it, headphones are awesome. But if youre searching for high-quality headphones, you may feel like youre looking for a needle in a haystack. There are too many designs available on the market. Looking at the specifications may not make things any easier. In this post, we are shedding more light on the Bluetooth headphone driver unit —the component responsible for creating sound—and discussing how features such as the Bluetooth headphone driver size affect performance. Lets get rolling.",
-      "author": "Femi",
-      "id": 1
-    },
-    {
-      "title": "What is API - Definition, Specifications, Types, Documentation",
-      "body": "An API is a set of programming code that enables data transmission between one software product and another. It also contains the terms of this data exchange.",
-      "author": "Elias",
-      "id": 2
-    },
-    {
       "title": "Introduction to ReactJs",
       "body": "React is a popular JavaScript library used for web development. React.js or ReactJS or React are different ways to represent ReactJS. Todays many large-scale companies (Netflix, Instagram, to name a few) also use React JS. There are many advantages of using this framework over other frameworks, and Its ranking under the top 10 programming languages for the last few years under various language ranking indices.",
       "author": "Oyewole",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "f79b",
+      "title": "Here's a title",
+      "body": "Here's the blog body",
+      "author": "James"
     }
   ]
 }

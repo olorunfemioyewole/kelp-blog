@@ -4,12 +4,12 @@ import err from "./err.png";//importing resource
 
 const BlogDetails = () => {
     const { id } = useParams();
-    const {data: blog, error, isPending} = useFetch("http://localhost:8000/blogs/"+id); //getting the exact blog needed from the fetch by adding the id
+    const {data: blog, error, isPending} = useFetch("http://localhost:5010/blogs/"+id); //getting the exact blog needed from the fetch by adding the id
     
     const history = useNavigate();
 
     const handleClick = () => {
-        fetch('http://localhost:8000/blogs/'+blog.id,{
+        fetch('http://localhost:5010/blogs/'+blog.id,{
             method: 'DELETE'
         }).then(() => {
             history('/');
